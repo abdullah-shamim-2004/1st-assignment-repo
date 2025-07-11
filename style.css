@@ -24,13 +24,19 @@ body{
     background-color: #4E47FF;
     color: #fff;
     height: 48px;
+    font-weight: bold;
     padding: 15px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
 
 }
 
-
+.button:hover {
+    background-color: #00e07d;
+    transform: scale(1.05);
+}
 
 
 /* style for header */
@@ -56,7 +62,7 @@ body{
 .banner{
     margin: auto;
     max-width: 1440px;
-    height: 80vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,14 +74,14 @@ body{
 }
 .banner-content h2{
    
-    font-size: 2.5rem;
+    font-size: 4.2rem;
     font-weight: 600;
     margin-bottom: 20px;
     line-height: 1.6;
 
 }
 .logo{
-    font-size: 2rem;
+    font-size: 2.125rem;
 }
 .logo span{
     color: orange;
@@ -95,7 +101,7 @@ body{
 
 }
 .action-content h2{
-    font-size: 2.5rem;
+    font-size: 2.625rem;
     line-height: 1.6;
     margin-bottom: 20px;
 
@@ -149,9 +155,9 @@ body{
 }
 
 .productive-user-info strong{
-    font-size: 3rem;
+    font-size: 5rem;
     color: #4E47FF;
-    line-height: 1.6;
+    line-height: 1;
 
 }
  
@@ -277,3 +283,48 @@ body{
     border-radius: 8px;
     margin-top: 20px;
 }
+
+/* footer styling */
+.footer{
+    min-height: 350px;
+    max-width: 1440px;
+    margin-top: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+.footer-details{
+    text-align: center;
+}
+.footer-details h1{
+    margin-bottom: 15px;
+    font-size: 6rem;
+}
+.footer-details ul {
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.footer ul li{
+    list-style: none;
+    
+}
+
+
+.footer-details ul li a{
+    text-decoration: none;
+    color: #333333b4;
+    font-size: 1.5rem;
+}
+.footer-details p{
+    color: #8987a1;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
