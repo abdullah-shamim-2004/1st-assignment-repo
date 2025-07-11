@@ -35,7 +35,7 @@ body{
 
 /* style for header */
 .header{
-
+    background-image: url(./img/Hero-bg.png);
 }
 
 /* style for navbar */
@@ -52,9 +52,47 @@ body{
 
 /* style for banner */
 .banner{
-    margin: 150px auto 200px auto;
+    margin: auto;
     max-width: 1440px;
     display: flex;
+    justify-content: center;
     align-items: center;
+    column-gap: 158px;
+}
+.banner-content{
+  padding-bottom: 200px;
+}
 
+/* styling action section */
+.action-section{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Productive user section style*/
+.productive-user-section{
+    /* height: ; */
+    max-width: 1440px;
+    margin: auto;
+    background-color: #e5e7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+.productive-user-info{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
